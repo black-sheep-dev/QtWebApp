@@ -41,7 +41,7 @@ class DECLSPEC HttpRequest {
 public:
 
     /** Values for getStatus() */
-    enum RequestStatus {waitForRequest, waitForHeader, waitForBody, complete, abort};
+    enum RequestStatus {waitForRequest, waitForHeader, waitForBody, complete, abort_size, abort_broken};
 
     /**
       Constructor.
